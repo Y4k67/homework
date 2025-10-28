@@ -1,0 +1,3 @@
+ch=input("enter a charecter:")
+ascii_value=ord(ch)
+print("the ascii valueof", ch, "is",ascii_value)
