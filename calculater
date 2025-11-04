@@ -1,0 +1,11 @@
+def calculate_power_loop(base, exponent):
+    if exponent < 0:
+        
+        return 1 / calculate_power_loop(base, -exponent)
+    elif exponent == 0:
+        return 1  
+    else:
+        result = 1
+        for _ in range(exponent):
+            result *= base
+        return result
