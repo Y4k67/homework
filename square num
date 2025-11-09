@@ -1,0 +1,10 @@
+
+number = int(input("Enter an integer: "))
+
+square = number * number
+    
+    
+print(f"The square of {number} is {square}")
+
+
+print("Wrong input. Please enter an integer.")
