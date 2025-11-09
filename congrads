@@ -1,1 +1,2 @@
-print("congragulations cam")
+print("congradulation")
+input("change congradulation into uppercase")
