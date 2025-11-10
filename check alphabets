@@ -1,0 +1,19 @@
+a=3
+b=8
+c=12
+
+
+print(a!=b)
+print(b!=c)
+
+
+x="2"
+y="k"
+if x!=y:
+    print(x,"and",y,"are different")
+
+
+v=int(input("enter a num"))
+if v%2!=0:
+    print("v, is not an alphabet")
+    
